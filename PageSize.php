@@ -7,7 +7,7 @@
  */
 
 
-namespace resltin\grid;
+namespace restlin\grid;
 
 use yii;
 use yii\helpers\Html;
