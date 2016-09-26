@@ -6,7 +6,7 @@
  */
 namespace restlin\grid;
 
-use reslin\grid\PageSize;
+use restlin\grid\PageSize;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
