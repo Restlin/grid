@@ -1,0 +1,24 @@
+{
+    "name": "restlin/pjax-indicator",
+    "description": "Yii2/Grid widget with features",
+    "keywords": ["yii2", "extension", "widget", "grid"],
+    "homepage": "https://github.com/Restlin/grid",
+    "type": "yii2-extension",
+    "license": "GNU3",
+    "authors": [
+        {
+            "name": "Ilya Shumilov",
+            "email": "restlinru@yandex.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "2amigos/yii2-grid-view-library" : ">=0.1.1",
+        "mpdf/mpdf":">=6.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "restlin\\grid\\": ""
+        }
+    }
+}
