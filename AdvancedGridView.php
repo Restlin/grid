@@ -1,7 +1,7 @@
 <?php
 /**
  * @copyright Copyright (c) 2016 Ilya Shumilov
- * @version 1.0.0
+ * @version 1.0.5
  * @link https://github.com/restlin/grid
  */
 namespace restlin\grid;
@@ -16,7 +16,6 @@ use Yii;
  * AdvancedGridView - gridview with changed pageSize, grouping columns and export to PDF
  * It support all group features from Dosamigos\grid\GroupGridView.
  * Also this widget has integrated page size and export to pdf (use Mpdf). 
- * @version 1.0.0
  * @author restlinru@yandex.ru
  */
 class AdvancedGridView extends \dosamigos\grid\GroupGridView
@@ -49,7 +48,7 @@ class AdvancedGridView extends \dosamigos\grid\GroupGridView
     
     /**
      * Action id, that print your html from grid to mpdf
-     * @todo Add example with action code!
+     * For example this action code see readme
      * @var string
      */
     public $pdfAction = 'site/pdf';
