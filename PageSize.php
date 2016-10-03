@@ -1,7 +1,7 @@
 <?php
 /**
  * @copyright Copyright (c) 2016 Ilya Shumilov
- * @version 1.0.5
+ * @version 1.0.6
  * @link https://github.com/restlin/grid
  */
 

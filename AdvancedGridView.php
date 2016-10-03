@@ -1,7 +1,7 @@
 <?php
 /**
  * @copyright Copyright (c) 2016 Ilya Shumilov
- * @version 1.0.5
+ * @version 1.0.6
  * @link https://github.com/restlin/grid
  */
 namespace restlin\grid;
@@ -60,7 +60,7 @@ class AdvancedGridView extends \dosamigos\grid\GroupGridView
         $this->filterSelector = '#'.$this->pageSizeId;
         $view = $this->getView();
         if($this->pdfFormat!==false) {
-            $url = Yii::$app->urlManager->createUrl([$this->pdfFormat,'format'=>$this->pdfFormat]);
+            $url = Yii::$app->urlManager->createUrl([$this->pdfAction,'format'=>$this->pdfFormat]);
             $js=' $(".btn-grid-pdf").on("click",gridToPdf);
             function gridToPdf()
             {
