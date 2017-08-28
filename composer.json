@@ -13,7 +13,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "2amigos/yii2-grid-view-library" : ">=0.1.1",
+        "2amigos/yii2-grid-view-library" : "~0.1.1",
         "mpdf/mpdf":">=6.1.1"
     },
     "autoload": {
